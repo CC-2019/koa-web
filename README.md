@@ -26,6 +26,10 @@ $ npm install
 ```bash
 $ node app.js
 ```
+linux 服务器后台启动
+```bash
+$ nohup node app.js >> /home/work/logs/koa-web.log 2>&1 &
+```
 
 ## 说明
 
